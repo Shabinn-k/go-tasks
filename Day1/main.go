@@ -2,7 +2,11 @@
 package main
 import "fmt"
 func main() {
-	
-	fmt.Println()
+	number:=0
+	if number%2==0{
+		fmt.Println("Even")
+	}else {
+		fmt.Println("Odd")
+	}
 
 }
