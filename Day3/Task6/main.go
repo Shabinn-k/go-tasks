@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 type Student struct {
-	Name  string
 	Grade int
 	Age   int
 }

@@ -29,10 +29,11 @@ func main() {
 
 	fmt.Println("Even numbers : ")
 	for n := range Evenchan {
-		fmt.Println(n)
+		fmt.Println(n,",")
 	}
+
 	fmt.Println("Odd numbers : ")
 	for n := range OddChan {
-		fmt.Println(n)
+		fmt.Print(n,",")
 	}
 }

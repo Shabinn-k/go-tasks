@@ -19,9 +19,6 @@ func variadic(number ...int){
 	fmt.Println(total)
 }
 
-
-
-
 func main() {
 
 	variadic(1,2,3,4,5,6)
